@@ -1,8 +1,8 @@
 dist: trusty
 sudo: required
 env:
-  - NODE_VERSION=5 SCRIPT=lint
-  - NODE_VERSION=5 SCRIPT=test
+  - NODE_VERSION=6 SCRIPT=lint
+  - NODE_VERSION=6 SCRIPT=test
 os:
   - linux
   - osx
