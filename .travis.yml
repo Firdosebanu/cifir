@@ -10,7 +10,7 @@ os:
 matrix:
   exclude:
     - os: osx
-      env: NODE_VERSION=5 SCRIPT=lint
+      env: NODE_VERSION=6 SCRIPT=lint
 
 script:
   - npm run-script $SCRIPT
