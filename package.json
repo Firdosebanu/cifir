@@ -8,7 +8,7 @@
     "start": "ng server",
     "postinstall": "typings install",
     "lint": "tslint \"src/**/*.ts\"",
-    "test": "ng test",
+    "test": "node tests/runner",
     "pree2e": "webdriver-manager update",
     "e2e": "protractor"
   },
