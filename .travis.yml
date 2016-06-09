@@ -2,7 +2,7 @@ language: node_js
 dist: trusty
 sudo: required
 env:
-  - NODE_VERSION=6 SCRIPT=lint
+  - NODE_VERSION=6 SCRIPT=tslint
   - NODE_VERSION=6 SCRIPT=test
 os:
   - linux
@@ -10,7 +10,7 @@ os:
 matrix:
   exclude:
     - os: osx
-      env: NODE_VERSION=6 SCRIPT=lint
+      env: NODE_VERSION=6 SCRIPT=tslint
 
 script:
   - npm run-script $SCRIPT
