@@ -2,11 +2,10 @@ language: node_js
 dist: trusty
 sudo: required
 env:
-  - NODE_VERSION=6 SCRIPT=tslint
+  
   - NODE_VERSION=6 SCRIPT=test
 os:
   - linux
-  - osx
 matrix:
   exclude:
     - os: osx
