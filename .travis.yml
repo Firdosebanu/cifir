@@ -45,14 +45,13 @@ branches:
   only:
   - master
   
-  before_script:
-  - echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
-  - git config --global user.email "myemail@email.com"
-  - git config --global user.name "myname"
+  # before_script:
+  # - echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
+  # - git config --global user.email "banufirdose786@email.com"
+  # - git config --global user.name "Firdosebanu"
   
   
-  script:
-  -ng build
+ 
   
   after_success:
 - git clone https://github.com/Firdosebanu/cifir.git
