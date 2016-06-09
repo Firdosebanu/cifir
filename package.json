@@ -1,6 +1,5 @@
 {
   "name": "cifirp",
-  "main": "lib/cli/index.js",
   "version": "0.0.0",
   "license": "MIT",
   "angular-cli": {},
