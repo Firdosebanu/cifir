@@ -7,11 +7,12 @@
   "scripts": {
     "start": "ng server",
     "postinstall": "typings install",
-   
-    "test":"ng test",
+    "lint": "tslint \"src/**/*.ts\"",
+    "test": "ng test",
     "pree2e": "webdriver-manager update",
     "e2e": "protractor"
-  }, "engines": {
+  },
+  "engines": {
     "node": ">= 4.1.0"
   },
   "private": true,
